@@ -1,7 +1,7 @@
 from django.urls import path
 
-from . import vieuws
+from . import views
 
 urlpatterns = [
-    path('', vieuws.index, name='index'),
+    path('', views.index, name='index'),
 ]
